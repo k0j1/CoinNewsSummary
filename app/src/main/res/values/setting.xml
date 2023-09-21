@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="settings_browser_key">setting.browser</string>
-    <string name="settings_browser_title">標準ブラウザを使用"</string>
-    <string name="settings_browser_summary_on">記事を標準ブラウザで表示します</string>
-    <string name="settings_browser_summary_off">記事を標準ブラウザで表示しません</string>
+    <string name="settings_browser_title">Use Default Browser</string>
+    <string name="settings_browser_summary_on">Display a content at Default Browser</string>
+    <string name="settings_browser_summary_off">Don\'t Display a content at Default Browser</string>
     <bool name="settings_browser_default">false</bool>
 
-    <string name="settings_thema_key">setting.thema</string>
-    <string name="settings_thema_title">テーマ切替</string>
-    <string name="settings_thema_dialog_title">テーマ選択</string>
-    <string name="settings_thema_default">light</string>
-    <string name="settings_thema_light">light</string>
-    <string name="settings_thema_dark">dark</string>
+    <string name="settings_theme_key">setting.theme</string>
+    <string name="settings_theme_title">Change Theme</string>
+    <string name="settings_theme_dialog_title">Select Theme</string>
+    <string name="settings_theme_default">light</string>
+    <string name="settings_theme_light">light</string>
+    <string name="settings_theme_dark">dark</string>
 
-    <string name="about_app_version">Ver.0.1.6</string>
+    <string name="about_app_version">Ver.0.1.0</string>
 </resources>
