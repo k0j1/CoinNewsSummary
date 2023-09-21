@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="rss_site_url0001">https://coinpost.jp/rss.xml</string>
-    <string name="rss_site_url0002">https://jp.cointelegraph.com/rss</string>
-    <string name="rss_site_url0003">https://coinmatome.com/index.rdf</string>
-    <string name="rss_site_url0004">http://blog.livedoor.jp/kumokumowatawata/index.rdf</string>
-    <string name="rss_site_url0005">http://minnanocoin.matometa-antenna.com/coinchoice.net/index.rdf</string>
-    <string name="rss_site_url0006">http://minnanocoin.matometa-antenna.com/www.coinjinja.com/index.rdf</string>
-    <string name="rss_site_url0007">http://2ch-ranking.net/rss/cryptocoin.rdf</string>
-    <string name="rss_site_url0008">https://news.fxcoin.jp/feed/rss2.xml</string>
-    <string name="rss_site_url0009">https://bitpress.jp/rss2.xml</string>
+    <string name="rss_site_url0001">https://www.coindesk.com/arc/outboundfeeds/rss/</string>
+    <string name="rss_site_url0002">https://cointelegraph.com/rss</string>
+    <string name="rss_site_url0003">https://www.newsbtc.com/feed/</string>
+    <string name="rss_site_url0004">https://bitcoinist.com/feed/</string>
+    <string name="rss_site_url0005"></string>
+    <string name="rss_site_url0006"></string>
+    <string name="rss_site_url0007"></string>
+    <string name="rss_site_url0008"></string>
+    <string name="rss_site_url0009"></string>
 
     <!-- RSSサイトアドレス -->
     <string-array name="rss_url">
@@ -30,15 +30,15 @@
     </string-array>
 
     <string name="rss_site_name0000">【すべて】</string>
-    <string name="rss_site_name0001">【Coinpost】</string>
-    <string name="rss_site_name0002">【Cointelegraph】</string>
-    <string name="rss_site_name0003">【仮想通貨まとめ】</string>
-    <string name="rss_site_name0004">【コイン速報】</string>
-    <string name="rss_site_name0005">【CoinChoice】</string>
-    <string name="rss_site_name0006">【COINJINJA】</string>
-    <string name="rss_site_name0007">【仮想通貨板:2ch勢いランキング】</string>
-    <string name="rss_site_name0008">【FXcoin】</string>
-    <string name="rss_site_name0009">【BITPRESS】</string>
+    <string name="rss_site_name0001">【CoinDesk】</string>
+    <string name="rss_site_name0002">【CoinTelegraph】</string>
+    <string name="rss_site_name0003">【NewsBTC】</string>
+    <string name="rss_site_name0004">【BitCoinist】</string>
+    <string name="rss_site_name0005"></string>
+    <string name="rss_site_name0006"></string>
+    <string name="rss_site_name0007"></string>
+    <string name="rss_site_name0008"></string>
+    <string name="rss_site_name0009"></string>
 
     <!-- RSSサイト名 -->
     <string-array name="rss_site_name">
@@ -51,19 +51,25 @@
         <item>@string/rss_site_name0007</item>
         <item>@string/rss_site_name0008</item>
         <item>@string/rss_site_name0009</item>
-        <!--
-        <item>【コインテレグラフ ジャパン】</item>
-        <item>【CoinChoice(2)】</item>
-        <item>【仮想通貨まとめNews】</item>
-        <item>【Bitcoin SVニュース速報】</item>
-        -->
     </string-array>
 
-    <string-array name="setting_thema_labels">
-        <item>ライトテーマ</item>
-        <item>ダークテーマ</item>
+    <!-- 通貨名 -->
+    <string name="setting_currency0001">BTC</string>
+    <string name="setting_currency0002">ETH</string>
+    <string-array name="setting_currency">
+        <item>@string/setting_currency0001</item>
+        <item>@string/setting_currency0002</item>
     </string-array>
-    <string-array name="setting_thema_values">
+    <integer-array name="setting_currency_resid">
+        <item>@drawable/ic_icon_bitcoin</item>
+        <item>@drawable/ic_icon_ethereum</item>
+    </integer-array>
+
+    <string-array name="setting_theme_labels">
+        <item>Light Theme</item>
+        <item>Dark Theme</item>
+    </string-array>
+    <string-array name="setting_theme_values">
         <item>light</item>
         <item>dark</item>
     </string-array>
